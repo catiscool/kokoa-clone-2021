@@ -152,7 +152,6 @@
 .reply__column button {
     background-color: var(--yellow);
     border:none;
-    margin-right: 3px;
     margin-top:3px;
     width: 35px;
     height: 35px;
