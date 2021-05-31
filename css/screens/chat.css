@@ -1,6 +1,6 @@
 #chat-screen {
     background-color: #abc1d1;
-    height: 11000vh
+    height: 500vh
 }
 
 #chat-screen .alt-header,
@@ -73,7 +73,7 @@
 
 .message__bubble {
     background-color: white;
-    padding: 10px 13px;
+    padding: 13px;
     font-size: 18px;
     border-radius: 15px;
     border-top-left-radius: 0px;
@@ -116,7 +116,7 @@
 } 
 
 .reply .reply__column:first-child {
-    width:100%;
+    width:10%;
 }
 .reply .reply__column:last-child {
     width: 90%;
@@ -128,10 +128,10 @@
 }
 
 .reply input {
-    padding: 10px;
+    padding: 14px;
     width: 100%;
     border: var(--main-border);
-    border-radius: 20px;
+    border-radius: 25px;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
 }
@@ -139,11 +139,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position:absolute;
-    right:-3px;
+    right: 3px;
     top: 2px;
 }
 
 .reply__column:last-child > i {
+    margin-top: 5px;
     right: 40px;
     top: 10px;
 }
@@ -151,8 +152,9 @@
 .reply__column button {
     background-color: var(--yellow);
     border:none;
-    width: 30px;
-    height: 30px;
+    margin-top:3px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
 
